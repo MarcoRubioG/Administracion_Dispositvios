@@ -12,11 +12,19 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
-                </div>
-            </div>
+    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+        {{ __('Dashboard') }}
+    </x-nav-link>
+    <x-nav-link :href="route('usuarios.index')" :active="request()->routeIs('usuarios.*')">
+        Usuarios
+    </x-nav-link>
+    <x-nav-link :href="route('dispositivos.index')" :active="request()->routeIs('dispositivos.*')">
+        Dispositivos
+    </x-nav-link>
+    <x-nav-link :href="route('asignaciones.index')" :active="request()->routeIs('asignaciones.*')">
+        Asignaciones
+    </x-nav-link>
+</div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
