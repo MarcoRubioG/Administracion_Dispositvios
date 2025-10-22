@@ -12,8 +12,8 @@
                     
                     <div class="flex justify-between items-center mb-6">
                         <h3 class="text-lg font-semibold">Lista de Usuarios</h3>
-                        <a href="{{ route('usuarios.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Nuevo Usuario
+                       <a href="{{ route('usuarios.create') }}" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
+                             Nuevo Usuario
                         </a>
                     </div>
 

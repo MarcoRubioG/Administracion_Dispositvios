@@ -9,8 +9,8 @@
                 <div class="p-6">
                     
                     <div class="flex justify-between items-center mb-6">
-                        <h3 class="text-lg font-semibold">Lista de Asignaciones</h3>
-                        <a href="{{ route('asignaciones.create') }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            <h3 class="text-lg font-semibold">Lista de Asignaciones</h3>
+                        <a href="{{ route('asignaciones.create') }}" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
                             Nueva Asignación
                         </a>
                     </div>

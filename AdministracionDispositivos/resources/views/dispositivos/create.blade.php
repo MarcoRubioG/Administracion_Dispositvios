@@ -53,12 +53,14 @@
                             </select>
                         </div>
 
-                        <div class="flex items-center justify-between">
-                            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                Crear Dispositivo
-                            </button>
-                            <a href="{{ route('dispositivos.index') }}" class="text-gray-600 hover:text-gray-900">Cancelar</a>
-                        </div>
+                            <div class="flex items-center justify-between mt-6">
+                                <button type="submit" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
+                                    Crear Dispositivo
+                                </button>
+                                <a href="{{ route('dispositivos.index') }}" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
+                                    Cancelar
+                                </a>
+                            </div>
                     </form>
                 </div>
             </div>

@@ -47,12 +47,14 @@
                             <textarea name="observaciones" rows="3" class="shadow border rounded w-full py-2 px-3 text-gray-700">{{ old('observaciones') }}</textarea>
                         </div>
 
-                        <div class="flex items-center justify-between">
-                            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                Crear Asignación
-                            </button>
-                            <a href="{{ route('asignaciones.index') }}" class="text-gray-600 hover:text-gray-900">Cancelar</a>
-                        </div>
+                         <div class="flex items-center justify-between mt-6">
+                             <button type="submit" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
+                                 Crear Asignación
+                             </button>
+                             <a href="{{ route('asignaciones.index') }}" class="px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition">
+                                 Cancelar
+                             </a>
+                         </div>
                     </form>
                 </div>
             </div>
